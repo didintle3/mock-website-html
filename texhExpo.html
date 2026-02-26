@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Tech Expo 2025</title>
+    <link rel="icon" href="multimedia/favicon.png" type="image/png">
+    <style>
+        table{
+            width: 70%;
+            border: 2px solid black;
+        }
+        th,td{
+            border: 2px solid black;
+            padding: 3px;
+        }
+        a{
+            text-decoration: none;
+        }
+        a:hover{
+            color: orangered;
+        }
+        footer{
+            text-align: center;
+        }
+        header{
+            background-color: rgb(47, 47, 180);
+            color: white;
+            text-align: center;
+        }
+    </style>
+</head>
+
+<body>
+<header><h1>Tech Expo 2025</h1></header>
+
+<nav>
+    <ul>
+        <li><a href="#home" title="link to home content">Home</a></li>
+        <li><a href="#exhibitors" title="link to exhibitors content"> Exhibitors</a></li>
+        <li><a href="#schedule" title="link to schedule content">Schedule</a></li>
+        <li><a href="#contact" title="link to contact details" target="_blank">Contact</a></li>
+    </ul>
+</nav>
+    
+<main>
+    <section>
+        <h2>About Tech Expo 2025</h2>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eum recusandae blanditiis ducimus, eius vel neque alias rerum veniam consectetur corrupti perspiciatis, unde incidunt. Suscipit earum labore minima placeat veritatis ad.</p>
+    
+        <table>
+            <caption><strong>Our Exhibitiors</strong></caption>
+            <thead>
+                <tr>
+                    <th>Name</th>
+                    <th>Booth Number</th>
+                    <th>Product</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Jane</td>
+                    <td>35</td>
+                    <td>Smartwatches</td>
+                </tr>
+                <tr>
+                    <td>Sam</td>
+                    <td>21</td>
+                    <td>Tablets</td>
+                </tr>
+                <tr>
+                    <td>Tim</td>
+                    <td>31</td>
+                    <td>Headphones</td>
+                </tr>
+            </tbody>
+        </table>
+
+        <h2>Keynote speakers</h2>
+        <ul>
+            <li><em>Ariana Grande</em></li>
+            <li><em>Tom Holland</em></li>
+            <li><em>Samantha Simpson</em></li>
+        </ul>
+
+        <h2>Highlight video &#128516;</h2>
+        <video controls width="350" height="300">
+            <source src="multimedia/sample_640x360.mp4" type="video/mp4">
+            Browser is not compatible to dispaly video
+        </video><br>
+
+        <h2>Tech Expo background sounds</h2>
+        <audio controls>
+            <source src="multimedia/sample1.mp3" type="audio/mpeg">
+            Browser is not compatible to dispaly video
+        </audio><br>
+    </section>
+
+    <section>
+        <fieldset>
+            <legend><strong>Registration form</strong></legend>
+            <form>
+                <label for="name">Name:</label><br>
+                <input type="text" name="name" id="Name" required><br><br>
+                <label for="email">Email:</label><br>
+                <input type="email"><br><br>
+                <label for="ticket">Ticket Type:</label><br>
+                <select name="ticket">
+                    <option value="general"> General Access</option>
+                    <option value="early">Early Bird</option>
+                    <option value="vip">VIP</option>
+                    <option value="reserved">Reserved Seating</option>
+                </select><br><br>
+                <label for="day">Day Attending</label><br>
+                <input type="date" name="day"><br><br>
+                <button type="submit">Send</button>
+            </form>
+        </fieldset><br>
+    </section>
+    <section>
+        <h2>Location of the Expo</h2>
+        <iframe src="https://www.youtube.com/embed/VIDEO_ID" allowfullscreen>
+        </iframe>
+        <hr>
+    </section>
+</main>
+<footer>
+    &copy;Didinte Mokagage
+</footer>
+</body>
+</html>
